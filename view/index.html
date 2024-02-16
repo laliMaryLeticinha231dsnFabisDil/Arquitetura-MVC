@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Área de Quadrado</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h2>Calculadora de Área de Quadrado</h2>
+    <form action="/calcular" method="post">
+        <label for="lado">Digite o valor do lado do quadrado:</label>
+        <input type="number" id="lado" name="lado" placeholder="Digite o lado do quadrado" />
+
+        <button onclick="calcularArea()">Calcular Área</button>
+    </form>
+</div>
+
+</body>
